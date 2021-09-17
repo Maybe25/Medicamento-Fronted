@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Alumno } from 'src/app/models/alumno.model';
 import { AlumnoService } from 'src/app/services/alumno.service';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-add-alumno',
@@ -38,6 +39,6 @@ export class AddAlumnoComponent implements OnInit {
           }
       )
   }
-  
+
 
 }
